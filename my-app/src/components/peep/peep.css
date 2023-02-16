@@ -40,7 +40,6 @@
     1px 3px 7px rgba(0, 0, 0, 0.1), 
     0px 0px 0px rgba(0, 0, 0, 0.1);
     padding-left: 1rem;
-    overflow-y: scroll;
 }
 
 .sub__partner-and-scale {   
@@ -96,6 +95,12 @@
    z-index: -1;
 }
 
+
+@media screen and (max-width: 400px) {
+    .partner-and-scale {
+        overflow-y: scroll;
+    }
+}
 
 @media screen and (max-width: 914px) {
     .peep-title {
