@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/psychic-enigma/static/css/main.212e5541.css",
+    "main.js": "/psychic-enigma/static/js/main.31810382.js",
+    "static/media/peep__image.png": "/psychic-enigma/static/media/peep__image.cd8684b11382f83a1af0.png",
+    "static/media/group.png": "/psychic-enigma/static/media/group.a6ad4dc11734472b9b73.png",
+    "static/media/screen.png": "/psychic-enigma/static/media/screen.1bdd4b148c01b8d575ee.png",
+    "static/media/vector.png": "/psychic-enigma/static/media/vector.a2cfd85c3242b9921495.png",
+    "static/media/brand.png": "/psychic-enigma/static/media/brand.80df70e752df269b5dbf.png",
+    "index.html": "/psychic-enigma/index.html",
+    "main.212e5541.css.map": "/psychic-enigma/static/css/main.212e5541.css.map",
+    "main.31810382.js.map": "/psychic-enigma/static/js/main.31810382.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.212e5541.css",
+    "static/js/main.31810382.js"
+  ]
+}
