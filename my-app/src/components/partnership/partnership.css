@@ -1,0 +1,219 @@
+.container {
+   background-color: black;
+   padding-top: 7rem;
+   padding-bottom: 7rem;
+}
+
+.grid__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    width: 100%;
+    font-size: 30px;
+}
+
+.partnership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  grid-auto-rows: minmax(100px, auto);
+  place-content: center;
+  gap: 3rem;
+  margin: auto;
+ 
+ 
+}
+
+
+/***************************************** STYLES FOR START-UP__GRID *************************************/
+
+.start-up__grid {
+    background-color: whitesmoke;
+}
+
+.start-up__grid h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+    font-size: 30px;
+    font-weight: 700;
+      
+}
+
+.start-up__grid p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 600;
+   
+    
+}
+
+.start-up__grid h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 10px;
+    
+    max-width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+   
+    line-height: 28px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.start-up__grid img {
+    max-width: 4%;
+    position: relative;
+    right: 1.5rem;
+    bottom: 1rem;
+    z-index: 1;
+
+}
+
+
+/******************************* STYLES FOR BUSINESS GRID *************************************/
+
+
+
+.business__grid {
+    background-color: whitesmoke;
+}
+
+.business__grid h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.business__grid p {
+    margin: 1rem;
+    padding: 2rem;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.business__grid h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    max-width:  100%;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 28px;
+    font-size: 10px;
+    font-weight: 500;
+    background: rgba(215, 199, 51, 0.04);
+    color: #000000
+}
+
+.business__grid img {
+    max-width: 4%;
+    position: relative;
+    right: 1.5rem;
+    bottom: 1rem;
+    z-index: 1;
+}
+
+/******************************** STYLES FOR AFFILIATE GRID *************************************/
+
+.affiliate__grid {
+    background-color: whitesmoke;  
+}
+
+.affiliate__grid h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.affiliate__grid p {    
+    margin: 1rem;
+    padding: 3rem;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 600;
+ 
+}
+
+.affiliate__grid h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 28px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.affiliate__img-1 {
+    max-width: 4%;
+    position: relative;
+    right: 1.5rem;
+    bottom: 1rem;
+    z-index: 1
+}
+
+.affiliate__img-2 {
+    max-width: 5%;
+    position: relative;
+    top: 2rem;
+    right: 10rem;
+    z-index: 1
+}
+
+.affiliate__img-3 {
+    max-width: 5%;
+    position: relative;
+    top: 2rem;
+    right: 5rem;
+    z-index: 1
+}
+
+
+@media screen and (max-width: 800px) {
+    .grid__title {
+        font-size: 25px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .start-up__grid, .business__grid, .affiliate__grid {
+        border-radius: 10px;
+        border: solid cyan 1px;
+    }
+
+    .partnership-grid p {
+        margin: 1rem;
+        padding: 1rem;
+         
+    }
+}
+
+
+

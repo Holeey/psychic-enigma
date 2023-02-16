@@ -1,0 +1,95 @@
+.disburse__container {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.section__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.disbursement__grid__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5rem;
+    margin: 7rem;
+}
+
+/******************************************************* STYLES FOR FAST AND EFFICIENT GRID ****************************************/
+
+.fast__and__efficient__grid h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 20px;
+    color: #64830B;
+
+}
+
+.fast__and__efficient__grid p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    line-height: 28px;
+    max-width: 400px;
+}
+
+
+.fast__and__efficient__grid img {
+    max-width: 50%;
+    
+    margin: 5rem
+}
+
+/******************************************** STYLES FOR SECURED AND TRUSTED GRID **********************************************/
+
+
+.secured__and__trusted__grid h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 20px;
+    color: #64830B;
+}
+
+.secured__and__trusted__grid p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    line-height: 28px;
+    max-width: 400px;
+}
+
+.secured__and__trusted__grid img {
+   max-width: 50%;
+    margin: 5rem;
+}
+
+@media screen and (max-width: 650px) {
+    .fast__and__efficient__grid p,
+    .secured__and__trusted__grid p {
+        min-width: 300px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .disbursement__grid__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

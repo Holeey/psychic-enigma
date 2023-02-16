@@ -1,0 +1,88 @@
+.footer__white__space {
+    margin-top: 15rem;
+    padding-bottom: 5rem;
+    border: solid 1px;
+    background: #001219;
+    color: whitesmoke;
+}
+
+.above__footer__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+
+.footer__small__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 30%;;
+    
+}
+
+.footer__small__container h5 {
+    color: white;
+    font-weight: 400;
+}
+
+.footer__small__container p {
+    color: #C0C0C0;
+}
+
+.partners__container {
+    margin-top: -2rem;
+}
+
+.footer__line {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-weight: 800;
+}
+
+.below__footer__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+
+.privacy__and__terms {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
+/*************************************** STYLES FOR MEDIA QUERIES *****************************************/
+
+@media screen and (max-width: 900px) {
+    .above__footer__line {
+        margin: 2rem;
+        font-size: 15px;
+    }   
+
+    .react-icons__container p {
+        font-size: 10px;
+    }
+        
+    
+
+    .footer__small__container {
+        gap: 1rem;
+    }
+
+    .footer__line {
+        margin: 2rem;
+    }
+
+    .below__footer__line {
+     margin: 2rem;
+     font-size: 11px;
+}
+
+}
