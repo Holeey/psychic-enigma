@@ -113,10 +113,10 @@
     background: #8F8E94;
     margin-top: -2rem;
     margin-left: 11rem;
-    max-width: 100px;
-    border: solid 1px;
+    width: 20%;
+    
     border-radius: 6px;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 500;
     line-height: 17px;
 }

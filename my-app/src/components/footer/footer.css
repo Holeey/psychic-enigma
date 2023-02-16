@@ -54,13 +54,40 @@
 .privacy__and__terms {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    max-width: 400px;
+    justify-content: space-between;
+    gap: 1.5rem;
 }
 
 /*************************************** STYLES FOR MEDIA QUERIES *****************************************/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 349px){
+    .above__footer__line {
+        margin: 2rem;
+        font-size: 12px;
+    }   
+
+    .react-icons__container p {
+        font-size: 10px;
+    }
+
+    .footer__small__container {
+        gap: 1rem;
+    }
+
+    .footer__line {
+        margin: 2rem;
+    }
+
+    .below__footer__line {
+     margin: 2rem;
+     font-size: 12px;
+     
+}
+
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 900px) {
     .above__footer__line {
         margin: 2rem;
         font-size: 15px;
@@ -82,7 +109,8 @@
 
     .below__footer__line {
      margin: 2rem;
-     font-size: 11px;
+     font-size: 12px;
+   
 }
 
 }

@@ -125,7 +125,7 @@
     justify-content: center;
     z-index: 1;
     border: solid 1px;
-    margin-left: 1rem;
+    margin-left: 0;
     padding: 2rem;
     color: #fff; 
     width: 100%;
@@ -206,8 +206,6 @@
     margin-right: 1rem;
     padding-left: 0rem;
     padding-bottom: 5rem;
-  
-   
 }
     
 .header-content__text  h1 {

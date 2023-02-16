@@ -40,7 +40,7 @@
     1px 3px 7px rgba(0, 0, 0, 0.1), 
     0px 0px 0px rgba(0, 0, 0, 0.1);
     padding-left: 1rem;
-   
+    overflow-y: scroll;
 }
 
 .sub__partner-and-scale {   

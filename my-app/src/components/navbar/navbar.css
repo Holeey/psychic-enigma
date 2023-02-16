@@ -105,7 +105,7 @@
     line-height: 20.83px;   
 }
 
-/**************************************************** STYLES FOR MEDIA QUERIES NAVBAR *****************************************/
+/**************************************************** STYLES FOR MOBILE NAVBAR *****************************************/
 
 .navbar__mobile__container {
     display: flex;
@@ -116,7 +116,10 @@
     max-width: auto;
     padding: 1rem;
     gap: 3rem;
-    border: solid 1px;
+}
+
+.navbar__mobile__container h1 {
+    color: darkorchid;
 }
 
 .navbar__menu__list {
@@ -126,7 +129,7 @@
    background-color: black;
    opacity: 0.85;
    color: antiquewhite;
-   min-width: 100%;
+   width: 100%;
    height: 600px;
    z-index: 6;
 }
@@ -145,7 +148,6 @@
 
 .menu-list p {
     padding: 1rem;
-    
 }
 
 .menu-list p :hover {
@@ -161,7 +163,7 @@
 
 
 .navbar__mobile__btns p{
-    width: 400px;
+    min-width: 200px;
     padding: 1rem;
 }
 
@@ -172,9 +174,10 @@
     padding: 0.5rem;
 }
 
+/**************************************** STYLES FOR MEDIA QUERIES *************************************************/
     
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .nav-content {
         display: none;
     }
